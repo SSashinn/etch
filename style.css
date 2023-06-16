@@ -5,23 +5,30 @@
 }
 
 .main-box{
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    width: 600px;
     margin: 100px;
-    margin-left: 30%;
+    margin-left: 28%;
     display: flex;
     flex-direction: column;
     flex: 1;
-    /* margin-bottom: -100px; */
+    margin-bottom: -20px;
 }
 
 .grid{
-    background-color: aqua;
     height: 100%;
     width: 100%;
     border: 1px solid black;
 
 }
+
+.gridHover{
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    background-color: black;
+}
+
 .grid-column{
     display: flex;
     flex-direction: row;
@@ -30,7 +37,7 @@
 
 .button{
     height: 35px;
-    width: 100px;
+    width: 150px;
     display: flex;
     justify-content: center;
     flex: 1;
